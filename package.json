@@ -32,7 +32,8 @@
   },
   "scripts": {
     "build": "pika build",
-    "version": "npm run build"
+    "version": "npm run build",
+    "publish": "pika publish"
   },
   "repository": {
     "type": "git",

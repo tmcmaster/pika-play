@@ -1,7 +1,7 @@
 {
   "name": "@wonkytech/pika-play",
   "description": "Play around with using Pika to build projects",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "files": [
     "dist-*/",
