@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../dist-src/index.js"],"sourcesContent":["export function PikaPlay() {\n  console.log('Hello from PikaPlay');\n}"],"names":["PikaPlay","console","log"],"mappings":";;;;AAAO,SAASA,QAAT,GAAoB;EACzBC,OAAO,CAACC,GAAR,CAAY,qBAAZ;;;;;"}

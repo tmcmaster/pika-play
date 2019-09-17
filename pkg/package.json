@@ -1,0 +1,33 @@
+{
+  "name": "pika-play",
+  "description": "Play around with using Pika to build projects",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "dist-*/",
+    "bin/"
+  ],
+  "pika": true,
+  "sideEffects": false,
+  "keywords": [],
+  "homepage": "https://github.com/tmcmaster/pika-play#readme",
+  "bugs": {
+    "url": "https://github.com/tmcmaster/pika-play/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmcmaster/pika-play.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@pika/plugin-build-node": "^0.6.1",
+    "@pika/plugin-build-types": "^0.6.1",
+    "@pika/plugin-build-web": "^0.6.1",
+    "@pika/plugin-standard-pkg": "^0.6.1",
+    "@pika/types": "^0.6.1"
+  },
+  "esnext": "dist-src/index.js",
+  "main": "dist-node/index.js",
+  "module": "dist-web/index.js",
+  "types": "dist-types/index.d.ts"
+}

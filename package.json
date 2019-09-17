@@ -1,9 +1,39 @@
 {
-  "name": "pika-play",
-  "version": "1.0.0",
+  "name": "@wonkytech/pika-play",
+  "version": "0.0.1",
   "description": "Play around with using Pika to build projects",
   "main": "index.js",
-  "scripts": { },
+  "files": [
+    "dist-*/",
+    "bin/"
+  ],
+  "pika": true,
+  "sideEffects": true,
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg",
+        {
+          "exclude": [
+            "__tests__/**/*"
+          ]
+        }
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]
+    ]
+  },
+  "scripts": {
+    "build": "pika build",
+    "version": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tmcmaster/pika-play.git"
@@ -14,5 +44,12 @@
   "bugs": {
     "url": "https://github.com/tmcmaster/pika-play/issues"
   },
-  "homepage": "https://github.com/tmcmaster/pika-play#readme"
+  "homepage": "https://github.com/tmcmaster/pika-play#readme",
+  "devDependencies": {
+    "@pika/plugin-build-node": "^0.6.1",
+    "@pika/plugin-build-types": "^0.6.1",
+    "@pika/plugin-build-web": "^0.6.1",
+    "@pika/plugin-standard-pkg": "^0.6.1",
+    "@pika/types": "^0.6.1"
+  }
 }
