@@ -1,6 +1,6 @@
 {
   "name": "@wonkytech/pika-play",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Play around with using Pika to build projects",
   "main": "index.js",
   "files": [
