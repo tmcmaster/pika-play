@@ -1,14 +1,14 @@
 {
-  "name": "pika-play",
+  "name": "@wonkytech/pika-play",
   "description": "Play around with using Pika to build projects",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "files": [
     "dist-*/",
     "bin/"
   ],
   "pika": true,
-  "sideEffects": false,
+  "sideEffects": true,
   "keywords": [],
   "homepage": "https://github.com/tmcmaster/pika-play#readme",
   "bugs": {
